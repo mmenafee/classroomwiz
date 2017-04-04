@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30E7D76F1E8E845F0053B8D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7D76E1E8E845F0053B8D5 /* AppDelegate.m */; };
+		30E7D7721E8E845F0053B8D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7D7711E8E845F0053B8D5 /* main.m */; };
+		30E7D7751E8E845F0053B8D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7D7741E8E845F0053B8D5 /* ViewController.m */; };
+		30E7D7771E8E845F0053B8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E7D7761E8E845F0053B8D5 /* Assets.xcassets */; };
+		30E7D77A1E8E845F0053B8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E7D7781E8E845F0053B8D5 /* Main.storyboard */; };
+		30E7D7851E8E845F0053B8D5 /* classroomOrganizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7D7841E8E845F0053B8D5 /* classroomOrganizerTests.m */; };
+		30E7D7901E8E845F0053B8D5 /* classroomOrganizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E7D78F1E8E845F0053B8D5 /* classroomOrganizerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E7D7811E8E845F0053B8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E7D7621E8E845E0053B8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E7D7691E8E845F0053B8D5;
+			remoteInfo = classroomOrganizer;
+		};
+		30E7D78C1E8E845F0053B8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E7D7621E8E845E0053B8D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E7D7691E8E845F0053B8D5;
+			remoteInfo = classroomOrganizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E7D76A1E8E845F0053B8D5 /* classroomOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = classroomOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7D76D1E8E845F0053B8D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E7D76E1E8E845F0053B8D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E7D7711E8E845F0053B8D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30E7D7731E8E845F0053B8D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30E7D7741E8E845F0053B8D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30E7D7761E8E845F0053B8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30E7D7791E8E845F0053B8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30E7D77B1E8E845F0053B8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E7D7801E8E845F0053B8D5 /* classroomOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = classroomOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7D7841E8E845F0053B8D5 /* classroomOrganizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classroomOrganizerTests.m; sourceTree = "<group>"; };
+		30E7D7861E8E845F0053B8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30E7D78B1E8E845F0053B8D5 /* classroomOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = classroomOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E7D78F1E8E845F0053B8D5 /* classroomOrganizerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = classroomOrganizerUITests.m; sourceTree = "<group>"; };
+		30E7D7911E8E845F0053B8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E7D7671E8E845F0053B8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7D77D1E8E845F0053B8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7D7881E8E845F0053B8D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30E7D7611E8E845E0053B8D5 = {
+			isa = PBXGroup;
+			children = (
+				30E7D76C1E8E845F0053B8D5 /* classroomOrganizer */,
+				30E7D7831E8E845F0053B8D5 /* classroomOrganizerTests */,
+				30E7D78E1E8E845F0053B8D5 /* classroomOrganizerUITests */,
+				30E7D76B1E8E845F0053B8D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E7D76B1E8E845F0053B8D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E7D76A1E8E845F0053B8D5 /* classroomOrganizer.app */,
+				30E7D7801E8E845F0053B8D5 /* classroomOrganizerTests.xctest */,
+				30E7D78B1E8E845F0053B8D5 /* classroomOrganizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E7D76C1E8E845F0053B8D5 /* classroomOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				30E7D76D1E8E845F0053B8D5 /* AppDelegate.h */,
+				30E7D76E1E8E845F0053B8D5 /* AppDelegate.m */,
+				30E7D7731E8E845F0053B8D5 /* ViewController.h */,
+				30E7D7741E8E845F0053B8D5 /* ViewController.m */,
+				30E7D7761E8E845F0053B8D5 /* Assets.xcassets */,
+				30E7D7781E8E845F0053B8D5 /* Main.storyboard */,
+				30E7D77B1E8E845F0053B8D5 /* Info.plist */,
+				30E7D7701E8E845F0053B8D5 /* Supporting Files */,
+			);
+			path = classroomOrganizer;
+			sourceTree = "<group>";
+		};
+		30E7D7701E8E845F0053B8D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E7D7711E8E845F0053B8D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30E7D7831E8E845F0053B8D5 /* classroomOrganizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				30E7D7841E8E845F0053B8D5 /* classroomOrganizerTests.m */,
+				30E7D7861E8E845F0053B8D5 /* Info.plist */,
+			);
+			path = classroomOrganizerTests;
+			sourceTree = "<group>";
+		};
+		30E7D78E1E8E845F0053B8D5 /* classroomOrganizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30E7D78F1E8E845F0053B8D5 /* classroomOrganizerUITests.m */,
+				30E7D7911E8E845F0053B8D5 /* Info.plist */,
+			);
+			path = classroomOrganizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E7D7691E8E845F0053B8D5 /* classroomOrganizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E7D7941E8E845F0053B8D5 /* Build configuration list for PBXNativeTarget "classroomOrganizer" */;
+			buildPhases = (
+				30E7D7661E8E845F0053B8D5 /* Sources */,
+				30E7D7671E8E845F0053B8D5 /* Frameworks */,
+				30E7D7681E8E845F0053B8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = classroomOrganizer;
+			productName = classroomOrganizer;
+			productReference = 30E7D76A1E8E845F0053B8D5 /* classroomOrganizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E7D77F1E8E845F0053B8D5 /* classroomOrganizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E7D7971E8E845F0053B8D5 /* Build configuration list for PBXNativeTarget "classroomOrganizerTests" */;
+			buildPhases = (
+				30E7D77C1E8E845F0053B8D5 /* Sources */,
+				30E7D77D1E8E845F0053B8D5 /* Frameworks */,
+				30E7D77E1E8E845F0053B8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E7D7821E8E845F0053B8D5 /* PBXTargetDependency */,
+			);
+			name = classroomOrganizerTests;
+			productName = classroomOrganizerTests;
+			productReference = 30E7D7801E8E845F0053B8D5 /* classroomOrganizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30E7D78A1E8E845F0053B8D5 /* classroomOrganizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E7D79A1E8E845F0053B8D5 /* Build configuration list for PBXNativeTarget "classroomOrganizerUITests" */;
+			buildPhases = (
+				30E7D7871E8E845F0053B8D5 /* Sources */,
+				30E7D7881E8E845F0053B8D5 /* Frameworks */,
+				30E7D7891E8E845F0053B8D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E7D78D1E8E845F0053B8D5 /* PBXTargetDependency */,
+			);
+			name = classroomOrganizerUITests;
+			productName = classroomOrganizerUITests;
+			productReference = 30E7D78B1E8E845F0053B8D5 /* classroomOrganizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E7D7621E8E845E0053B8D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mmenafee;
+				TargetAttributes = {
+					30E7D7691E8E845F0053B8D5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					30E7D77F1E8E845F0053B8D5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 30E7D7691E8E845F0053B8D5;
+					};
+					30E7D78A1E8E845F0053B8D5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 30E7D7691E8E845F0053B8D5;
+					};
+				};
+			};
+			buildConfigurationList = 30E7D7651E8E845E0053B8D5 /* Build configuration list for PBXProject "classroomOrganizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30E7D7611E8E845E0053B8D5;
+			productRefGroup = 30E7D76B1E8E845F0053B8D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E7D7691E8E845F0053B8D5 /* classroomOrganizer */,
+				30E7D77F1E8E845F0053B8D5 /* classroomOrganizerTests */,
+				30E7D78A1E8E845F0053B8D5 /* classroomOrganizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E7D7681E8E845F0053B8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7D7771E8E845F0053B8D5 /* Assets.xcassets in Resources */,
+				30E7D77A1E8E845F0053B8D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7D77E1E8E845F0053B8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7D7891E8E845F0053B8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E7D7661E8E845F0053B8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7D7751E8E845F0053B8D5 /* ViewController.m in Sources */,
+				30E7D7721E8E845F0053B8D5 /* main.m in Sources */,
+				30E7D76F1E8E845F0053B8D5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7D77C1E8E845F0053B8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7D7851E8E845F0053B8D5 /* classroomOrganizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E7D7871E8E845F0053B8D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E7D7901E8E845F0053B8D5 /* classroomOrganizerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E7D7821E8E845F0053B8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E7D7691E8E845F0053B8D5 /* classroomOrganizer */;
+			targetProxy = 30E7D7811E8E845F0053B8D5 /* PBXContainerItemProxy */;
+		};
+		30E7D78D1E8E845F0053B8D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E7D7691E8E845F0053B8D5 /* classroomOrganizer */;
+			targetProxy = 30E7D78C1E8E845F0053B8D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E7D7781E8E845F0053B8D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E7D7791E8E845F0053B8D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E7D7921E8E845F0053B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		30E7D7931E8E845F0053B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		30E7D7951E8E845F0053B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = classroomOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miles.classroomOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30E7D7961E8E845F0053B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = classroomOrganizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miles.classroomOrganizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30E7D7981E8E845F0053B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = classroomOrganizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miles.classroomOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/classroomOrganizer.app/Contents/MacOS/classroomOrganizer";
+			};
+			name = Debug;
+		};
+		30E7D7991E8E845F0053B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = classroomOrganizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miles.classroomOrganizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/classroomOrganizer.app/Contents/MacOS/classroomOrganizer";
+			};
+			name = Release;
+		};
+		30E7D79B1E8E845F0053B8D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = classroomOrganizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miles.classroomOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = classroomOrganizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30E7D79C1E8E845F0053B8D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = classroomOrganizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Miles.classroomOrganizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = classroomOrganizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E7D7651E8E845E0053B8D5 /* Build configuration list for PBXProject "classroomOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7D7921E8E845F0053B8D5 /* Debug */,
+				30E7D7931E8E845F0053B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E7D7941E8E845F0053B8D5 /* Build configuration list for PBXNativeTarget "classroomOrganizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7D7951E8E845F0053B8D5 /* Debug */,
+				30E7D7961E8E845F0053B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30E7D7971E8E845F0053B8D5 /* Build configuration list for PBXNativeTarget "classroomOrganizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7D7981E8E845F0053B8D5 /* Debug */,
+				30E7D7991E8E845F0053B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30E7D79A1E8E845F0053B8D5 /* Build configuration list for PBXNativeTarget "classroomOrganizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E7D79B1E8E845F0053B8D5 /* Debug */,
+				30E7D79C1E8E845F0053B8D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E7D7621E8E845E0053B8D5 /* Project object */;
+}
